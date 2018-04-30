@@ -6,6 +6,9 @@ python3.6 inference.py [input sting]
 For example:
 ```
 python3.6 inference.py "$TSLA borrow still -7.5% which means very tight on the avail stock for shorting....  $VALE meanwhile easing up to "only -8%""
+
+Output:
+fine-grained sentiment score: -0.106764615
 ```
 ## Reference
 1. [NTUSD-Fin: A Market Sentiment Dictionary for Financial Social Media Data Applications](http://nlg3.csie.ntu.edu.tw/nlpresource/NTUSD-Fin/)
