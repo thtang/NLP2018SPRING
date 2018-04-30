@@ -1,4 +1,6 @@
 # Fine-Grained Sentiment Analysis on Financial Microblogs
+## Task description
+Given a text instance (microblog message about stock), predict the sentiment score.
 ## Usage
 ```
 python3.6 inference.py [input sting]
