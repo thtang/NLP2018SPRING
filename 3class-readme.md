@@ -1,4 +1,4 @@
-#Sentiment Analysis F1 3-class
+# Sentiment Analysis F1 3-class
 ## Usage
 ```
 python3 3class.py INPUT_FILE_PATH
@@ -13,5 +13,5 @@ Macro f1: 0.XX
 Micro f1: 0.XX
 ```
 ## Relative Files
-./3class-stopwords.txt
-./3class-model
+(1)./3class-stopwords.txt
+(2)./3class-model
