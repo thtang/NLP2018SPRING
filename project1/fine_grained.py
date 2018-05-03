@@ -23,18 +23,19 @@ import pandas as pd
 import pickle
 
 from sklearn.metrics import mean_squared_error
+import sys
 
-
-
+train_path = sys.argv[1]
+test_path = sys.argv[2]
 
 # load data
-with open("./training_set.json", "r") as f:
+with open(train_path, "r") as f:
     data = f.read()
     train_data = json.loads(data)
     
 print("number of training instances:", len(train_data))
 
-with open("./test_set.json", "r") as f:
+with open(test_path, "r") as f:
     data = f.read()
     test_data = json.loads(data)
 print("number of testing instances:", len(test_data))
