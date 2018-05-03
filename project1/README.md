@@ -4,12 +4,17 @@ Given a text instance (microblog message about stock), predict the sentiment sco
 ## Dependency
 `nltk` `xgboost` `afinn` `vaderSentiment` `scikit-learn` `numpy` 
 ## Usage
+Training and testing:
 ```
-python3.6 inference.py [input sting]
+python fine_grained.py [training json file ] [testing json file ]
+```
+For inference:
+```
+python inference.py [input string]
 ```
 For example:
 ```
-python3.6 inference.py "$TSLA borrow still -7.5% which means very tight on the avail stock for shorting....  $VALE meanwhile easing up to "only -8%""
+python inference.py "$TSLA borrow still -7.5% which means very tight on the avail stock for shorting....  $VALE meanwhile easing up to "only -8%""
 ```
 Output:
 ```
