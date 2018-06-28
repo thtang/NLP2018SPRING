@@ -18,6 +18,8 @@ For evaluation:
 ```
 perl semeval2010_task8_scorer-v1.2.pl [result file path] [answer_key file path] > [result score file path]
 ```
+## Result  
+![image](https://github.com/thtang/NLP/blob/master/project2/pic/result_f1%20score.PNG)
 
 ## Reference
 1. [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](http://www.aclweb.org/anthology/S10-1006)
