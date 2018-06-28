@@ -3,7 +3,7 @@
 ## Task description
 The task was designed to compare different approaches to semantic relation classification and to provide a standard testbed for future research.
 ## Dependency
-`nltk` `spacy` `keras` `vaderSentiment` `scikit-learn` `numpy` `wordNet` `propBank`
+`Python3` `nltk` `spacy` `keras` `gensim` `scikit-learn` `numpy` 
 ## Usage
 Generate training and testing features:
 ```
